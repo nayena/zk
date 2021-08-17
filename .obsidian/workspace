@@ -1,0 +1,108 @@
+{
+  "main": {
+    "id": "d3bcf227d2ea84e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1de6ff439e7c018",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2537a81c326641fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b0c047d579762f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "999984ab106f7e9d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "97948180f22bb470",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8773cab7f67ae03a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab841dceecdb5f9b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3eb9a6657e6e7a4a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b08812a315fff376",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "f1de6ff439e7c018",
+  "lastOpenFiles": [
+    "kubectl.md",
+    "Kubernetes.md",
+    "000 Work MOC.md",
+    "+Home.md",
+    "Work MOC.md",
+    "Untitled.md",
+    "Templates/Inputs/Book.md",
+    "Templates/Inputs/Article.md",
+    "Templates/Inputs/Airr Quote.md",
+    "2021-M11.md"
+  ]
+}
