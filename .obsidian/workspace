@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "f1de6ff439e7c018",
+        "id": "d4c8141ea6101d66",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Amazon VPC.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Amazon VPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,17 +96,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "f1de6ff439e7c018",
+  "active": "d4c8141ea6101d66",
   "lastOpenFiles": [
-    "kubectl.md",
-    "Kubernetes.md",
+    "Amazon VPC.md",
+    "Amazon Web Services.md",
+    "AWS Direct Connect.md",
+    "Amazon Elastic Beanstalk.md",
+    "Amazon EC2.md",
+    "001 AWS Certifications.md",
     "000 Work MOC.md",
-    "+Home.md",
-    "Work MOC.md",
-    "Untitled.md",
-    "Templates/Inputs/Book.md",
-    "Templates/Inputs/Article.md",
-    "Templates/Inputs/Airr Quote.md",
-    "2021-M11.md"
+    "canary release.md",
+    "Amazon Glacier.md",
+    "+Home.md"
   ]
 }
