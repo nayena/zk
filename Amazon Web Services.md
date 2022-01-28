@@ -9,3 +9,5 @@ The grouping from the AWS Console is the one that is also used below.
 - [[Amazon Glacier]]
 - [[Amazon VPC]]
 - [[AWS Direct Connect]]
+- [[Amazon S3]]
+- 

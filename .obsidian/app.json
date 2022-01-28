@@ -3,5 +3,7 @@
   "communityPluginSortOrder": "download",
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "Templates",
-  "promptDelete": false
+  "promptDelete": false,
+  "legacyEditor": false,
+  "livePreview": true
 }

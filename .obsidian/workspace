@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d4c8141ea6101d66",
+        "id": "e2a42143370938ca",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Amazon VPC.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Amazon VPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,17 +92,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "d4c8141ea6101d66",
+  "active": "e2a42143370938ca",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Amazon S3.md",
     "Amazon VPC.md",
-    "Amazon Web Services.md",
-    "AWS Direct Connect.md",
-    "Amazon Elastic Beanstalk.md",
+    "Amazon Elastic Block Store.md",
     "Amazon EC2.md",
+    "Solutions Architect - Associate.md",
     "001 AWS Certifications.md",
+    "Amazon Web Services.md",
     "000 Work MOC.md",
-    "canary release.md",
-    "Amazon Glacier.md",
     "+Home.md"
   ]
 }
