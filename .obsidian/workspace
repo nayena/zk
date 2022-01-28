@@ -7,12 +7,8 @@
         "id": "4172912cce36f6e4",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Business Continuity Plan.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Business Continuity Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,8 +86,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -100,15 +94,15 @@
   },
   "active": "4172912cce36f6e4",
   "lastOpenFiles": [
-    "Business Continuity Plan.md",
-    "100 - Business MOC.md",
-    "000 Work MOC.md",
-    "+Home.md",
+    "Amazon EC2.md",
+    "Amazon Backup.md",
+    "AWS Solutions Architect - Associate.md",
+    "Amazon FSx.md",
     "Amazon Elastic File System.md",
     "Amazon S3.md",
-    "Amazon EC2.md",
-    "AWS Solutions Architect - Associate.md",
-    "Amazon S3 - Requester Pays.md",
-    "Amazon S3 - Default Encryption.md"
+    "AWS Storage Gateway.md",
+    "AWS Snowball.md",
+    "AWS Direct Connect.md",
+    "Business Continuity Plan.md"
   ]
 }

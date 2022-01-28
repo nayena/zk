@@ -15,3 +15,7 @@ These are sub-pages directly related to the 4 domains:
 - [[Amazon Elastic Block Store]]
 - [[Amazon Elastic File System]]
 - [[Amazon S3]]
+- [[AWS Snowball]]
+- [[AWS Storage Gateway]]
+- [[Amazon FSx]]
+- [[Amazon Backup]]

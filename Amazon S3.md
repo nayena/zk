@@ -12,6 +12,7 @@ To store objects in S3, you need to create a bucket that is **globally unique** 
 
 Features in S3, typically works at *a bucket level* and **not** at a folder level.
 
+
 There are many advanced features in S3, these are:
 - [[Amazon S3 - Versioning]]
 - [[Amazon S3 - Server-Access Logging]]
@@ -22,6 +23,27 @@ There are many advanced features in S3, these are:
 - [[Amazon S3 - Transfer Acceleration]]
 - [[Amazon S3 - Events]]
 - [[Amazon S3 - Requester Pays]]
+
+Additionally, several more features are available:
+
+- Access Control Lists. These allow you to control which user or AWS account can access a Bucket or object, using a range of permissions, such as read, write, or full control, et cetera.
+- Lifecycle Policies. Lifecycle Policies allow you to automatically manage and move data between classes, allowing specific data to be relocated based on compliance and governance controls you might have in place.
+- MFA Delete. Multi-Factor Authentication Delete ensures that a user has to enter a 6 digit MFA code to delete an object, which prevents accidental deletion due to human error.
+
+## Cross Region Replication
+By enabling Cross Region Replication, you can maintain compliance whilst at the same time still have the data in the local region for optimum data retrieval latency.
+
+You will be charged of COPY and PUT requests and only the storage cost.
+
+## Multipart Uploading
+Amazon recommends that for any file that you're trying to upload to S3, **larger than 100MB**, than you should implement **multipart** upload. This feature helps to increase the performance of the backup process.
+
+As multiple parts can be uploaded at the same time in parallel, the speed and throughput of uploading can be enhanced.
+
+Should there be any transmission issues or errors, it will **only affect the part being uploaded**, unaffecting the other parts. When this happens, only the affected part will need to be resent.
+
+There is an element of management available whereby you can, if you're quiet, pause your uploads and then resume them at any point. Multipart uploads *do not have an expiry time*, allowing you to manage the upload of your data over a period of time.
+
 
 ## Storage Classes
 
@@ -69,3 +91,18 @@ This is the cheapest and again being a Glacier class, it focuses on long-term st
 This is an ideal storage class for circumstances that require specific data retention regulations and compliance with minimal access, such as those within the financial or health sector where data records might need to be legally retained for seven years or even longer.
 
 The durability and availability matches that of S3 Glacier with eleven 9s durability across multiple AZs with 99.9% availability.
+
+## Batch Operations
+Batch operations allow you to carry out management operations across millions or even billions of your S3 Objects at the same time using a single API or by using the S3 Management Console.
+
+Batch operations also integrate with AWS CloudTrail to monitor all changes made using the APIs selected. It also includes the ability to notify you when specific events occur and provide a completion report keeping you aware of the progress of your batch changes.
+
+Being able to run huge batch management across your data storage in S3 can save you a huge amount of time by trying to develop other alternate methods in trying to achieve the same result. It’s also compatible with AWS Lambda, allowing you to run your functions across billions of objects at once.
+
+## Glacier Select
+Supports SQL type operations to retrieve specific types of data, which could save a lot of money.
+
+## S3 Replication Time Control
+S3-RTC is an advanced feature built on top of S3 replication that provides an SLA of ensuring that 99.9% of objects are replicated within 15 minutes of the start of the upload. 
+
+This process can be monitored through the use of CloudWatch metrics (which are charged separately).
