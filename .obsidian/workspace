@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e2a42143370938ca",
+        "id": "4172912cce36f6e4",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Amazon Elastic File System.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#opensource",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Amazon Elastic File System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,27 +87,28 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "e2a42143370938ca",
+  "active": "4172912cce36f6e4",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Amazon S3.md",
-    "Amazon VPC.md",
-    "Amazon Elastic Block Store.md",
+    "Amazon Elastic File System.md",
+    "AWS Solutions Architect - Associate.md",
     "Amazon EC2.md",
-    "Solutions Architect - Associate.md",
-    "001 AWS Certifications.md",
-    "Amazon Web Services.md",
-    "000 Work MOC.md",
-    "+Home.md"
+    "Amazon S3 - Requester Pays.md",
+    "Amazon S3.md",
+    "Amazon S3 - Default Encryption.md",
+    "Amazon S3 - Events.md",
+    "Amazon S3 - Transfer Acceleration.md",
+    "Amazon S3 - Object Lock.md",
+    "Kubernetes.md"
   ]
 }

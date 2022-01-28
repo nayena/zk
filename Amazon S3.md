@@ -12,6 +12,17 @@ To store objects in S3, you need to create a bucket that is **globally unique** 
 
 Features in S3, typically works at *a bucket level* and **not** at a folder level.
 
+There are many advanced features in S3, these are:
+- [[Amazon S3 - Versioning]]
+- [[Amazon S3 - Server-Access Logging]]
+- [[Amazon S3 - Static Website Hosting]]
+- [[Amazon S3 - Object Level Logging]]
+- [[Amazon S3 - Default Encryption]]
+- [[Amazon S3 - Object Lock]]
+- [[Amazon S3 - Transfer Acceleration]]
+- [[Amazon S3 - Events]]
+- [[Amazon S3 - Requester Pays]]
+
 ## Storage Classes
 
 ### Standard

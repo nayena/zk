@@ -4,7 +4,7 @@ This is intended to contain all links and references to notes that will be creat
 
 AWS Contains the following certifications that I intend to pursue at some point:
 
-- [[Solutions Architect - Associate]]
+- [[AWS Solutions Architect - Associate]]
 - Solutions Architect - Professional
 - SysOps Administrator - Associate
 - Developer - Associate
