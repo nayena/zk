@@ -7,8 +7,12 @@
         "id": "4172912cce36f6e4",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Amazon EC2.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Amazon EC2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,12 +100,12 @@
   "active": "4172912cce36f6e4",
   "lastOpenFiles": [
     "Amazon EC2.md",
+    "AWS Storage Gateway.md",
+    "Amazon Elastic File System.md",
     "Amazon Backup.md",
     "AWS Solutions Architect - Associate.md",
     "Amazon FSx.md",
-    "Amazon Elastic File System.md",
     "Amazon S3.md",
-    "AWS Storage Gateway.md",
     "AWS Snowball.md",
     "AWS Direct Connect.md",
     "Business Continuity Plan.md"
